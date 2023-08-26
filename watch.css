@@ -1,0 +1,15 @@
+body {
+    background-color: bisque;
+}
+.clock { 
+    /* khi muốn truy cập vào class của div dùng dấu chấm đằng trước*/
+    position: absolute;
+    top: 50%;/* tạo khoảng cách từ trên*/
+    left: 50%;/* tạo khoảng cách từ bên trái*/
+    font-size: 50px; /* tạo font chữ*/
+    color: black;/* tạo màu chữ*/
+    font-family: 'Times New Roman';/* tạo kiểu chữ*/
+    letter-spacing: 7px; /* tạo khoảng cách các chữ*/
+    transform: translateX(-50%) translateY(-50%);
+    /*sử dụng để thay đổi vị trí, kích thước và hình dạng của phần từ HTML*/
+}
